@@ -1,12 +1,15 @@
 {
   "files": {
-    "main.js": "/smb-erp3/static/js/main.1c024fc8.js",
+    "main.css": "/smb-erp3/static/css/main.b10ce008.css",
+    "main.js": "/smb-erp3/static/js/main.ecb99ebd.js",
     "static/js/787.81ee3a52.chunk.js": "/smb-erp3/static/js/787.81ee3a52.chunk.js",
     "index.html": "/smb-erp3/index.html",
-    "main.1c024fc8.js.map": "/smb-erp3/static/js/main.1c024fc8.js.map",
+    "main.b10ce008.css.map": "/smb-erp3/static/css/main.b10ce008.css.map",
+    "main.ecb99ebd.js.map": "/smb-erp3/static/js/main.ecb99ebd.js.map",
     "787.81ee3a52.chunk.js.map": "/smb-erp3/static/js/787.81ee3a52.chunk.js.map"
   },
   "entrypoints": [
-    "static/js/main.1c024fc8.js"
+    "static/css/main.b10ce008.css",
+    "static/js/main.ecb99ebd.js"
   ]
 }
