@@ -1,11 +1,11 @@
 
 export interface EmployeeTypes {
-    id?: number;
-    firstName?: string;
-    lastName?: string;
-    email?: string;
-    salary?: any;
-    date?: string | Date | any;
+    id: number;
+    firstName: string;
+    lastName: string;
+    email: string;
+    salary: any;
+    date: string | Date | any;
 }
 
 const employeesData: EmployeeTypes[] = [
