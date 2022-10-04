@@ -44,7 +44,7 @@ function Edit({ employees, selectedEmployee, setEmployees, setIsEditing }:
             }
         }
 
-        setEmployees(employees);
+        setEmployees([...employees]);
         setIsEditing(false);
 
         Swal.fire({

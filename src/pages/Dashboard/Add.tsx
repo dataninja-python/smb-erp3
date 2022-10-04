@@ -43,7 +43,7 @@ function Add({ employees, setEmployees, setIsAdding }:
             date
         }
         employees.push(newEmployee);
-        setEmployees(employees);
+        setEmployees([...employees]);
         setIsAdding(false);
 
         Swal.fire({
