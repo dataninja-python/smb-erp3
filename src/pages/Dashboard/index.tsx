@@ -51,7 +51,7 @@ function Dashboard() {
                     timer: 1500,
                 });
 
-                setEmployees(employees.filter(employee => employee.id !== id));
+                setEmployees([...employees.filter(employee => employee.id !== id)]);
             }
         });
     }
