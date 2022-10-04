@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/smb-erp2/static/css/main.073c9b0a.css",
-    "main.js": "/smb-erp2/static/js/main.615711fe.js",
-    "static/js/787.81ee3a52.chunk.js": "/smb-erp2/static/js/787.81ee3a52.chunk.js",
-    "static/media/logo.svg": "/smb-erp2/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
-    "index.html": "/smb-erp2/index.html",
-    "main.073c9b0a.css.map": "/smb-erp2/static/css/main.073c9b0a.css.map",
-    "main.615711fe.js.map": "/smb-erp2/static/js/main.615711fe.js.map",
-    "787.81ee3a52.chunk.js.map": "/smb-erp2/static/js/787.81ee3a52.chunk.js.map"
+    "main.css": "/smb-erp3/static/css/main.073c9b0a.css",
+    "main.js": "/smb-erp3/static/js/main.026891d6.js",
+    "static/js/787.81ee3a52.chunk.js": "/smb-erp3/static/js/787.81ee3a52.chunk.js",
+    "static/media/logo.svg": "/smb-erp3/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/smb-erp3/index.html",
+    "main.073c9b0a.css.map": "/smb-erp3/static/css/main.073c9b0a.css.map",
+    "main.026891d6.js.map": "/smb-erp3/static/js/main.026891d6.js.map",
+    "787.81ee3a52.chunk.js.map": "/smb-erp3/static/js/787.81ee3a52.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.073c9b0a.css",
-    "static/js/main.615711fe.js"
+    "static/js/main.026891d6.js"
   ]
 }
