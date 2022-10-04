@@ -1,4 +1,4 @@
-import React, { useState, useRef, useEffect, SetStateAction, HTMLInputTypeAttribute } from 'react';
+import React, { useState, useRef, useEffect, SetStateAction } from 'react';
 import Swal from 'sweetalert2';
 import { EmployeeTypes } from '../../data';
 

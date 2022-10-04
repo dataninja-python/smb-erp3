@@ -10,11 +10,6 @@ import Edit from './Edit';
 import { employeesData } from '../../data';
 import { EmployeeTypes } from '../../data';
 
-interface HandlerFC {
-    handleEdit: (params: any) => any;
-    handleDelete: (params: any) => any;
-}
-
 function Dashboard() {
 
     const [employees, setEmployees] = useState<EmployeeTypes[]>(employeesData);
