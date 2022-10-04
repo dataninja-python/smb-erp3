@@ -1,4 +1,4 @@
-import React, { SetStateAction, useState } from 'react'
+import React, { useState } from 'react'
 import Swal from 'sweetalert2';
 import '../pages.css';
 
