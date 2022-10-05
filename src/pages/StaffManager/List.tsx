@@ -1,6 +1,6 @@
 import React, { SetStateAction } from 'react';
 
-import { StaffTypes, staffData } from './staffData';
+import { StaffTypes } from './staffData';
 
 function List({ employees, handleEdit, handleDelete }:
     {

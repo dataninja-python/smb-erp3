@@ -1,7 +1,7 @@
 import React, { SetStateAction, useState } from 'react';
 import Swal from 'sweetalert2';
 
-import { StaffTypes, staffData } from './staffData';
+import { StaffTypes } from './staffData';
 
 function Edit({ employees, selectedEmployee, setEmployees, setIsEditing }:
     {
