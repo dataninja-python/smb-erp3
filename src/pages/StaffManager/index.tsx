@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Swal from 'sweetalert2';
-import './assets/staff.css';
+import '../assets/staff.css';
 
 import Header from './components/Header';
 import List from './components/List';
