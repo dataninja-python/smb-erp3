@@ -1,11 +1,12 @@
 import React, { SetStateAction, useState } from 'react';
 import Swal from 'sweetalert2';
-import { EmployeeTypes } from '../../data';
+
+import { StaffTypes, staffData } from './staffData';
 
 function Edit({ employees, selectedEmployee, setEmployees, setIsEditing }:
     {
-        employees: EmployeeTypes[], selectedEmployee: EmployeeTypes,
-        setEmployees: React.Dispatch<SetStateAction<EmployeeTypes[]>>,
+        employees: StaffTypes[], selectedEmployee: StaffTypes,
+        setEmployees: React.Dispatch<SetStateAction<StaffTypes[]>>,
         setIsEditing: React.Dispatch<SetStateAction<boolean>>
     }) {
 

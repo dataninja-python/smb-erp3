@@ -7,13 +7,12 @@ import List from './List';
 import Add from './Add';
 import Edit from './Edit';
 
-import { employeesData } from '../../data';
-import { EmployeeTypes } from '../../data';
+import { StaffTypes, staffData } from './staffData';
 
 function StaffManager() {
 
-    const [employees, setEmployees] = useState<EmployeeTypes[]>(employeesData);
-    const [selectedEmployee, setSelectedEmployee] = useState<EmployeeTypes>({
+    const [employees, setEmployees] = useState<StaffTypes[]>(staffData);
+    const [selectedEmployee, setSelectedEmployee] = useState<StaffTypes>({
         id: 0,
         firstName: '',
         lastName: '',

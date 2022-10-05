@@ -1,11 +1,11 @@
 import React, { useState, useRef, useEffect, SetStateAction } from 'react';
 import Swal from 'sweetalert2';
-import { EmployeeTypes } from '../../data';
 
+import { StaffTypes, staffData } from './staffData';
 function Add({ employees, setEmployees, setIsAdding }:
     {
-        employees: Array<EmployeeTypes>,
-        setEmployees: React.Dispatch<SetStateAction<EmployeeTypes[]>>,
+        employees: Array<StaffTypes>,
+        setEmployees: React.Dispatch<SetStateAction<StaffTypes[]>>,
         setIsAdding: React.Dispatch<SetStateAction<boolean>>
     }) {
 

@@ -1,10 +1,10 @@
 import React, { SetStateAction } from 'react';
-import { EmployeeTypes } from '../../data';
 
+import { StaffTypes, staffData } from './staffData';
 
 function List({ employees, handleEdit, handleDelete }:
     {
-        employees: EmployeeTypes[],
+        employees: StaffTypes[],
         handleEdit: React.Dispatch<SetStateAction<number>>,
         handleDelete: React.Dispatch<SetStateAction<number>>
     }) {
