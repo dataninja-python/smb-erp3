@@ -1,8 +1,8 @@
 import React, { SetStateAction } from 'react';
 
-import { StaffTypes } from '../staffData';
+import { StaffTypes } from '../data/staffData';
 
-export function List({ employees, handleEdit, handleDelete }:
+function List({ employees, handleEdit, handleDelete }:
     {
         employees: StaffTypes[],
         handleEdit: React.Dispatch<SetStateAction<number>>,
@@ -69,3 +69,5 @@ export function List({ employees, handleEdit, handleDelete }:
         </div>
     )
 }
+
+export default List;

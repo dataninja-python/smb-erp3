@@ -1,9 +1,9 @@
 import React, { SetStateAction, useState } from 'react';
 import Swal from 'sweetalert2';
 
-import { StaffTypes } from '../staffData';
+import { StaffTypes } from '../data/staffData';
 
-export function Edit({ employees, selectedEmployee, setEmployees, setIsEditing }:
+function Edit({ employees, selectedEmployee, setEmployees, setIsEditing }:
     {
         employees: StaffTypes[], selectedEmployee: StaffTypes,
         setEmployees: React.Dispatch<SetStateAction<StaffTypes[]>>,
@@ -116,3 +116,5 @@ export function Edit({ employees, selectedEmployee, setEmployees, setIsEditing }
         </div>
     );
 }
+
+export default Edit;

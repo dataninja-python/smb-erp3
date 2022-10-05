@@ -1,6 +1,6 @@
 import React, { SetStateAction } from 'react';
 
-export function Header({ setIsAdding }: {
+function Header({ setIsAdding }: {
     setIsAdding: React.Dispatch<SetStateAction<boolean>>
 }) {
     return (
@@ -12,3 +12,5 @@ export function Header({ setIsAdding }: {
         </header>
     )
 }
+
+export default Header;

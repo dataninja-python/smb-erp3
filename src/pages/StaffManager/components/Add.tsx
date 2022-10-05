@@ -1,9 +1,9 @@
 import React, { useState, useRef, useEffect, SetStateAction } from 'react';
 import Swal from 'sweetalert2';
 
-import { StaffTypes } from '../staffData';
+import { StaffTypes } from '../data/staffData';
 
-export function Add({ employees, setEmployees, setIsAdding }:
+function Add({ employees, setEmployees, setIsAdding }:
     {
         employees: Array<StaffTypes>,
         setEmployees: React.Dispatch<SetStateAction<StaffTypes[]>>,
@@ -116,3 +116,5 @@ export function Add({ employees, setEmployees, setIsAdding }:
         </div>
     );
 }
+
+export default Add;
