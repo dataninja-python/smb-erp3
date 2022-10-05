@@ -2,15 +2,14 @@ import React, { useState } from 'react'
 import Swal from 'sweetalert2';
 import './staff.css';
 
-import Header from './Header';
-import List from './List';
-import Add from './Add';
-import Edit from './Edit';
+import { Header } from './components/Header';
+import { List } from './components/List';
+import { Add } from './components/Add';
+import { Edit } from './components/Edit';
 
 import { StaffTypes, staffData } from './staffData';
 
 function StaffManager() {
-
     const [employees, setEmployees] = useState<StaffTypes[]>(staffData);
     const [selectedEmployee, setSelectedEmployee] = useState<StaffTypes>({
         id: 0,
@@ -20,6 +19,7 @@ function StaffManager() {
         salary: '',
         date: ''
     });
+
     const [isAdding, setIsAdding] = useState(false);
     const [isEditing, setIsEditing] = useState(false);
 
@@ -54,7 +54,6 @@ function StaffManager() {
             }
         });
     }
-
 
     return (
         <div className='container'>
