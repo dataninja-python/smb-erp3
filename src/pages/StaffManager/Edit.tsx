@@ -5,7 +5,8 @@ import { EmployeeTypes } from '../../data';
 function Edit({ employees, selectedEmployee, setEmployees, setIsEditing }:
     {
         employees: EmployeeTypes[], selectedEmployee: EmployeeTypes,
-        setEmployees: React.Dispatch<SetStateAction<EmployeeTypes[]>>, setIsEditing: React.Dispatch<SetStateAction<boolean>>
+        setEmployees: React.Dispatch<SetStateAction<EmployeeTypes[]>>,
+        setIsEditing: React.Dispatch<SetStateAction<boolean>>
     }) {
 
     const id = selectedEmployee.id;

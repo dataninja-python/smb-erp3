@@ -1,6 +1,8 @@
 import React, { SetStateAction } from 'react';
 
-function Header({ setIsAdding }: { setIsAdding: React.Dispatch<SetStateAction<boolean>> }) {
+function Header({ setIsAdding }: {
+    setIsAdding: React.Dispatch<SetStateAction<boolean>>
+}) {
     return (
         <header>
             <h2>Staff Management Module</h2>

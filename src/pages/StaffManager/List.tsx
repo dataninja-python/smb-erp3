@@ -2,7 +2,12 @@ import React, { SetStateAction } from 'react';
 import { EmployeeTypes } from '../../data';
 
 
-function List({ employees, handleEdit, handleDelete }: { employees: EmployeeTypes[], handleEdit: React.Dispatch<SetStateAction<number>>, handleDelete: React.Dispatch<SetStateAction<number>> }) {
+function List({ employees, handleEdit, handleDelete }:
+    {
+        employees: EmployeeTypes[],
+        handleEdit: React.Dispatch<SetStateAction<number>>,
+        handleDelete: React.Dispatch<SetStateAction<number>>
+    }) {
 
     const formatter = new Intl.NumberFormat('en-US', {
         style: 'currency',
