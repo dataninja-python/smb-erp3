@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import Swal from 'sweetalert2';
-import '../pages.css';
+import './staff.css';
 
 import Header from './Header';
 import List from './List';
@@ -10,7 +10,7 @@ import Edit from './Edit';
 import { employeesData } from '../../data';
 import { EmployeeTypes } from '../../data';
 
-function Dashboard() {
+function StaffManager() {
 
     const [employees, setEmployees] = useState<EmployeeTypes[]>(employeesData);
     const [selectedEmployee, setSelectedEmployee] = useState<EmployeeTypes>({
@@ -93,4 +93,4 @@ function Dashboard() {
     )
 }
 
-export default Dashboard;
+export default StaffManager;
