@@ -1,11 +1,10 @@
 //import React, { useState } from 'react'
 //import Swal from 'sweetalert2';
-import '../pages.css';
+//import '../pages.css';
 
 function DashboardManager() {
-
     return (
-        <div className='container'>
+        <div>
             <table>
                 <thead>Dashboard Manager</thead>
             </table>
